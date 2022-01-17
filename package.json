@@ -1,0 +1,19 @@
+{
+  "name": "news-service",
+  "version": "1.0.0",
+  "description": "Service to fetch news and related information",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Mishra",
+  "license": "ISC",
+  "volta": {
+    "node": "14.18.2",
+    "yarn": "1.22.4"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "serverless-http": "^2.7.0"
+  }
+}
